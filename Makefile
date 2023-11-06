@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -Werror
 
 NAME = libftprintf.a
 
-FUNC =	ft_printf.c ft_printf_utils.c
+FUNC =	ft_printf.c ft_printf_utils.c ft_printf_utils_2.c
 
 OBJS = ${FUNC:.c=.o} 
 
